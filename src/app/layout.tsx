@@ -4,11 +4,11 @@ import "aos/dist/aos.css";
 import AOS from "@/components/AOS";
 
 export const metadata: Metadata = {
-  title: "Максим Гнатишин | Front-end Developer",
+  title: "Максим Гнатишин | Full stack developer",
   description:
-    "Мене звати Максим Гнатишин, я Front-end розробник з досвідом роботи з JavaScript, React, Next.js та TypeScript. Випускник Західноукраїнського національного університету, спеціальність Інженерія програмного забезпечення.",
+    "Мене звати Максим Гнатишин, я Full stack developer з досвідом роботи з JavaScript, React, Next.js та TypeScript. Випускник Західноукраїнського національного університету, спеціальність Інженерія програмного забезпечення.",
   keywords: [
-    "Front-end Developer",
+    "Full stack developer",
     "React",
     "Next.js",
     "JavaScript",

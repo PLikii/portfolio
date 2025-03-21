@@ -21,17 +21,15 @@ export default function Skills() {
 
   return (
     <div className=" flex flex-col gap-6 lg:items-center lg:justify-center ">
-      <div className=" w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
+      <h2 className=" w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
         🧑‍💻 Навички · Досвід
-      </div>
+      </h2>
 
       <div className=" font-extrabold text-2xl text-title sm:text-4xl">
         Технології та навички
       </div>
 
-      <div className=" my-2 sm:text-lg">
-        Технології, якими я користуюся щодня
-      </div>
+      <h3 className=" my-2 sm:text-lg">Технології, якими я користуюся щодня</h3>
 
       <div
         className=" flex space-x-4 overflow-y-hidden overflow-x-scroll sm:space-x-8 lg:overflow-visible "
@@ -45,7 +43,7 @@ export default function Skills() {
         {items(IoLogoGithub, "GitHub")}
       </div>
 
-      <div className=" my-2 sm:text-lg">Інші техніки, з якими я працював</div>
+      <h3 className=" my-2 sm:text-lg">Інші техніки, з якими я працював</h3>
 
       <div className=" flex space-x-4 sm:space-x-8 ">
         {items(FaPython, "Python ")}

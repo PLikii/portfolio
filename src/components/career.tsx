@@ -2,7 +2,7 @@ import { professionalItems, academicItems } from "@/lib//career";
 
 export default function Career() {
   const items = (title, description, time) => (
-    <div className="group relative min-h-72 snap-center space-y-4 rounded-2xl border border-border p-6 duration-300 hover:bg-card lg:w-auto lg:p-8 hover:lg:scale-105">
+    <div className="group relative min-h-60 snap-center space-y-4 rounded-2xl border border-border p-6 duration-300 hover:bg-card lg:w-auto lg:p-8 hover:lg:scale-105">
       <div className="text-lg text-title sm:text-xl">{title}</div>
       <div className="w-52 pb-8 ms:text-lg lg:w-auto">{description}</div>
       <div className="absolute right-0 bottom-0 p-6 text-right text-primary">
@@ -13,9 +13,9 @@ export default function Career() {
 
   const section = (title, itemsList) => (
     <div className="space-y-4" data-aos="zoom-in-up">
-      <div className="font-extrabold text-title text-xl sm:text-2xl lg:px-6">
+      <h3 className="font-extrabold text-title text-xl sm:text-2xl lg:px-6">
         {title}
-      </div>
+      </h3>
       <div className="flex w-90 snap-x gap-6 overflow-x-scroll lg:w-auto lg:flex-col lg:overflow-hidden lg:p-6">
         {itemsList.map(item => (
           <div key={item.id}>
@@ -28,12 +28,12 @@ export default function Career() {
 
   return (
     <div className="flex flex-col gap-6 lg:items-center lg:justify-center">
-      <div
+      <h2
         className="w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary"
         data-aos="fade-left"
       >
         💼 Кар'єра
-      </div>
+      </h2>
 
       <div
         className="font-extrabold text-2xl text-title sm:text-4xl"

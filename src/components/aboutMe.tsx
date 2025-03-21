@@ -13,13 +13,13 @@ export default function AboutMe() {
         />
       </div>
       <div className=" space-y-6" data-aos="fade-down">
-        <div className=" w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
+        <h2 className=" w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
           🧐 Про мене
-        </div>
+        </h2>
 
-        <div className=" font-extrabold text-2xl text-title sm:text-4xl">
+        <h1 className=" font-extrabold text-2xl text-title sm:text-4xl">
           Гнатишин Максим
-        </div>
+        </h1>
 
         <div className=" sm:text-lg">
           👋 Привіт! Мене звати Максим Гнатишин Юрійович, але можете звертатися
@@ -28,7 +28,7 @@ export default function AboutMe() {
 
         <div className=" space-y-3 sm:text-lg">
           <div>
-            👨‍💻 Я Front-end розробник із понад 2-річним досвідом роботи з
+            👨‍💻 Я full stack developer із понад 2-річним досвідом роботи з
             JavaScript, React JS, Next.js і TypeScript.
           </div>
           <div>
@@ -36,7 +36,7 @@ export default function AboutMe() {
             Західноукраїнському національному університеті.
           </div>
           <div>
-            💡 Захоплююся розробкою Front-end за допомогою React, React Native і
+            💡 Захоплююся розробкою full stack developer за допомогою React і
             Next.js, постійно вдосконалюю свої навички.
           </div>
         </div>

@@ -4,12 +4,12 @@ import { SiGmail } from "react-icons/si";
 export default function Contacts() {
   return (
     <div className="flex flex-col gap-6 lg:items-center lg:justify-center">
-      <div className="w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
+      <h2 className="w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
         📬 Контакти
-      </div>
+      </h2>
 
       <div className="font-extrabold text-2xl text-title sm:text-4xl">
-        Кар'єра та навчання
+        Контакти
       </div>
 
       <div className=" items-center gap-36 space-y-6 pt-4 lg:flex lg:space-y-0">
@@ -22,11 +22,14 @@ export default function Contacts() {
           <RiTelegram2Line className=" size-10 fill-primary " />
           <div> Давайте поговоримо</div>
         </a>
-        <div className="items-center justify-center gap-2 lg:flex lg:flex-col">
+        <a
+          href="mailto:marioua672@gmail.com"
+          className="items-center justify-center gap-2 lg:flex lg:flex-col"
+        >
           <SiGmail className=" size-10 fill-primary duration-300 hover:scale-105 hover:fill-secondary " />
           <div className=" text-primary text-xl">E-mail:</div>
           <div className=" select-all">marioua672@gmail.com</div>
-        </div>
+        </a>
       </div>
     </div>
   );
