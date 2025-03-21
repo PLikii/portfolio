@@ -1,18 +1,24 @@
 import { RiTelegram2Line } from "react-icons/ri";
 import { SiGmail } from "react-icons/si";
+import { useTranslations } from "next-intl";
 
 export default function Contacts() {
+  const t = useTranslations("contacts");
+
   return (
-    <div className="flex flex-col gap-6 lg:items-center lg:justify-center">
+    <section
+      id="contacts"
+      className="flex flex-col gap-6 lg:items-center lg:justify-center"
+    >
       <h2 className="w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
-        📬 Контакти
+        {t("category")}
       </h2>
 
       <div className="font-extrabold text-2xl text-title sm:text-4xl">
-        Контакти
+        {t("title")}
       </div>
 
-      <div className=" items-center gap-36 space-y-6 pt-4 lg:flex lg:space-y-0">
+      <div className=" flex flex-col items-center gap-6 space-y-6 pt-4 lg:flex-row lg:gap-36 lg:space-y-0">
         <a
           href="https://t.me/PLikii"
           target="_blank"
@@ -20,17 +26,19 @@ export default function Contacts() {
           rel="noreferrer"
         >
           <RiTelegram2Line className=" size-10 fill-primary " />
-          <div> Давайте поговоримо</div>
+          <div> {t("telegram")}</div>
         </a>
         <a
           href="mailto:marioua672@gmail.com"
-          className="items-center justify-center gap-2 lg:flex lg:flex-col"
+          className="items-center justify-center gap-4 text-center lg:flex lg:flex-col "
         >
-          <SiGmail className=" size-10 fill-primary duration-300 hover:scale-105 hover:fill-secondary " />
+          <SiGmail className=" size-10 w-full fill-primary duration-300 hover:scale-105 hover:fill-secondary" />
           <div className=" text-primary text-xl">E-mail:</div>
-          <div className=" select-all">marioua672@gmail.com</div>
+          <a href="mailto:marioua672@gmail.com" className=" select-all">
+            marioua672@gmail.com
+          </a>
         </a>
       </div>
-    </div>
+    </section>
   );
 }

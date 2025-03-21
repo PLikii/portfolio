@@ -8,8 +8,11 @@ import { FaPython } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { useTranslations } from "next-intl";
 
 export default function Skills() {
+  const t = useTranslations("skills");
+
   const items = (IconComponent, name) => (
     <div className="group relative overflow-visible" data-aos="flip-up">
       <IconComponent className="h-16 w-16 fill-primary duration-700 hover:scale-105" />
@@ -20,19 +23,22 @@ export default function Skills() {
   );
 
   return (
-    <div className=" flex flex-col gap-6 lg:items-center lg:justify-center ">
+    <section
+      id="skills"
+      className=" flex flex-col gap-6 md:items-center md:justify-center "
+    >
       <h2 className=" w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
-        🧑‍💻 Навички · Досвід
+        {t("category")}
       </h2>
 
       <div className=" font-extrabold text-2xl text-title sm:text-4xl">
-        Технології та навички
+        {t("title")}
       </div>
 
-      <h3 className=" my-2 sm:text-lg">Технології, якими я користуюся щодня</h3>
+      <h3 className=" my-2 sm:text-lg"> {t("daily")}</h3>
 
       <div
-        className=" flex space-x-4 overflow-y-hidden overflow-x-scroll sm:space-x-8 lg:overflow-visible "
+        className=" flex space-x-4 overflow-y-hidden overflow-x-scroll sm:space-x-8 md:overflow-visible "
         data-aos="flip-up"
       >
         {items(FaReact, "React")}
@@ -43,7 +49,7 @@ export default function Skills() {
         {items(IoLogoGithub, "GitHub")}
       </div>
 
-      <h3 className=" my-2 sm:text-lg">Інші техніки, з якими я працював</h3>
+      <h3 className=" my-2 sm:text-lg">{t("worked")}</h3>
 
       <div className=" flex space-x-4 sm:space-x-8 ">
         {items(FaPython, "Python ")}
@@ -51,6 +57,6 @@ export default function Skills() {
         {items(SiMongodb, "Mongodb ")}
         {items(SiPostgresql, "PostgreSQL ")}
       </div>
-    </div>
+    </section>
   );
 }

@@ -2,7 +2,7 @@ import { RiTelegram2Line } from "react-icons/ri";
 
 export default function Footer() {
   return (
-    <footer className="grid grid-cols-1 bg-card px-10 py-6 lg:grid-cols-2 lg:px-24">
+    <footer className="grid grid-cols-1 bg-card px-10 py-3 md:py-6 lg:grid-cols-2 lg:px-24">
       <div className="flex place-content-center items-center lg:place-content-start">
         Copyright © PLikii · 2024
       </div>

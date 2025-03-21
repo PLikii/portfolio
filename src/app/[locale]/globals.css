@@ -23,7 +23,7 @@
     --description: #ffffff80;
     --card: #7b4ae21a;
     --border: #7b4ae280;
-    --input: #7b4ae21a;
+    --input: #1a0742;
     --primary: #7b4ae2;
     --secondary: #7b4ae280;
     --accent: #4ae290;
@@ -35,4 +35,8 @@ body {
   color: var(--description);
   background: var(--background);
   font-family: "Raleway", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
