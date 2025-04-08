@@ -39,7 +39,7 @@ export default function Skills() {
       <h3 className=" my-2 sm:text-lg"> {t("daily")}</h3>
 
       <div
-        className=" flex space-x-4 overflow-y-hidden overflow-x-scroll sm:space-x-8 md:overflow-visible "
+        className=" flex sl:space-x-4 space-x-2 overflow-y-hidden overflow-x-scroll sm:space-x-8 md:overflow-visible "
         data-aos="flip-up"
       >
         {items(FaReact, "React")}
