@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <section
       id="about-me"
-      className="flex flex-col items-center justify-around gap-6 pt-20 2xl:flex-row"
+      className="flex flex-col items-center justify-around gap-6 pt-32 2xl:flex-row"
     >
       <div className=" pointer-events-none select-none" data-aos="fade-up">
         <Image
