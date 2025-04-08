@@ -41,7 +41,7 @@ export default function Career() {
   return (
     <section
       id="career"
-      className="flex flex-col gap-6 lg:items-center lg:justify-center"
+      className="flex flex-col items-center justify-center gap-6"
     >
       <h2
         className="w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary"

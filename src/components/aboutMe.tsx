@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <section
       id="about-me"
-      className="flex flex-col items-center justify-around gap-6 pt-40 2xl:flex-row"
+      className="flex flex-col items-center justify-around gap-6 pt-20 2xl:flex-row"
     >
       <div className=" pointer-events-none select-none" data-aos="fade-up">
         <Image
@@ -16,9 +16,13 @@ export default function AboutMe() {
           width={420}
           height={420}
           priority
+          className=" h-[420] w-full rounded-full object-contain "
         />
       </div>
-      <div className=" space-y-6" data-aos="fade-down">
+      <div
+        className=" flex flex-col items-center space-y-6 lg:items-start "
+        data-aos="fade-down"
+      >
         <h2 className=" w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
           {t("category")}
         </h2>

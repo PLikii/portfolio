@@ -25,7 +25,8 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className=" flex flex-col gap-6 md:items-center md:justify-center "
+      className=" flex flex-col items-center justify-center gap-6 "
+      data-aos="flip-up"
     >
       <h2 className=" w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
         {t("category")}
