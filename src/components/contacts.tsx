@@ -15,9 +15,9 @@ export default function Contacts() {
         {t("category")}
       </h2>
 
-      <div className="font-extrabold text-2xl text-title sm:text-4xl">
+      <p className="font-extrabold text-2xl text-title sm:text-4xl">
         {t("title")}
-      </div>
+      </p>
 
       <div className=" flex flex-col items-center gap-6 space-y-6 pt-4 lg:flex-row lg:gap-36 lg:space-y-0">
         <a
@@ -27,14 +27,14 @@ export default function Contacts() {
           rel="noreferrer"
         >
           <RiTelegram2Line className=" size-10 fill-primary " />
-          <div> {t("telegram")}</div>
+          <p> {t("telegram")}</p>
         </a>
         <a
           href="mailto:marioua672@gmail.com"
           className="items-center justify-center gap-4 text-center lg:flex lg:flex-col "
         >
           <SiGmail className=" size-10 w-full fill-primary duration-300 hover:scale-105 hover:fill-secondary" />
-          <div className=" text-primary text-xl">E-mail:</div>
+          <p className=" text-primary text-xl">E-mail:</p>
           <a href="mailto:marioua672@gmail.com" className=" select-all">
             marioua672@gmail.com
           </a>

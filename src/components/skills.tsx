@@ -16,9 +16,9 @@ export default function Skills() {
   const items = (IconComponent, name) => (
     <div className="group relative overflow-visible" data-aos="flip-up">
       <IconComponent className="h-16 w-16 fill-primary duration-700 hover:scale-105" />
-      <div className="-translate-x-1/2 pointer-events-none absolute bottom-full left-1/2 mb-2 rounded px-2 py-1 text-sm text-white opacity-0 transition-opacity duration-700 group-hover:opacity-100">
+      <p className="-translate-x-1/2 pointer-events-none absolute bottom-full left-1/2 mb-2 rounded px-2 py-1 text-sm text-white opacity-0 transition-opacity duration-700 group-hover:opacity-100">
         {name}
-      </div>
+      </p>
     </div>
   );
 

@@ -8,11 +8,11 @@ export default function Career() {
       data-aos="zoom-in-up"
       className="group relative h-full min-h-68 snap-center space-y-4 rounded-2xl border border-border p-6 duration-300 hover:bg-card lg:w-auto lg:p-8 hover:lg:scale-105"
     >
-      <div className="text-lg text-title sm:text-xl">{title}</div>
-      <div className="w-full pb-8 ms:text-lg">{description}</div>
-      <div className="absolute right-0 bottom-0 p-6 text-right text-primary">
+      <h3 className="text-lg text-title sm:text-xl">{title}</h3>
+      <p className="w-full pb-8 ms:text-lg">{description}</p>
+      <p className="absolute right-0 bottom-0 p-6 text-right text-primary">
         {time}
-      </div>
+      </p>
     </div>
   );
 

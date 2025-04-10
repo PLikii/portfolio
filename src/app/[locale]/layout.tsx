@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import AOS from "@/components/AOS";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/react";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
@@ -11,6 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t("meta.title"),
 
     description: t("meta.description"),
+    keywords: t("meta.keywords"),
     appleWebApp: {
       capable: true,
       statusBarStyle: "default",
@@ -32,6 +34,7 @@ export default async function RootLayout({
       <body className="antialiased">
         <NextIntlClientProvider messages={messages}>
           <AOS />
+          <Analytics />
           {children}
         </NextIntlClientProvider>
       </body>

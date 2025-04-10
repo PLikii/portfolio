@@ -7,12 +7,12 @@ export default function AboutMe() {
   return (
     <section
       id="about-me"
-      className="flex flex-col items-center justify-around gap-6 pt-32 2xl:flex-row"
+      className="flex flex-col items-center justify-around gap-6 pt-20 2xl:flex-row"
     >
       <div className=" pointer-events-none select-none" data-aos="fade-up">
         <Image
           src="/myImage.png"
-          alt="MyImage"
+          alt={t("title")}
           width={420}
           height={420}
           priority
@@ -34,9 +34,9 @@ export default function AboutMe() {
         <div className=" sm:text-lg">{t("description1")}</div>
 
         <div className=" space-y-3 sm:text-lg">
-          <div>{t("description2")}</div>
-          <div>{t("description3")}</div>
-          <div>{t("description4")}</div>
+          <p>{t("description2")}</p>
+          <p>{t("description3")}</p>
+          <p>{t("description4")}</p>
         </div>
 
         <div className=" sm:text-lg">{t("description5")}</div>

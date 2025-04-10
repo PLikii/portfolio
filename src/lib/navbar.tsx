@@ -9,13 +9,14 @@ export const navbar: Navbar[] = [
     href: "#about-me",
   },
   {
-    id: "Career",
-    href: "#career",
-  },
-  {
     id: "Projects",
     href: "#projects",
   },
+  {
+    id: "Career",
+    href: "#career",
+  },
+
   {
     id: "Skills",
     href: "#skills",

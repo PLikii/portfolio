@@ -2,7 +2,8 @@
   "meta": {
     "title": "Maksym Hnatyshyn || Full stack developer",
     "titleTemplate": "%s || Maksym Hnatyshyn || Full stack developer",
-    "description": "My name is Maksym Hnatyshyn, I am a Full stack developer with experience working with JavaScript, React, Next.js and TypeScript. I am a graduate of the Western Ukrainian National University, majoring in Software Engineering."
+    "description": "My name is Maksym Hnatyshyn, I am a Full stack developer with experience working with JavaScript, React, Next.js and TypeScript. I am a graduate of the Western Ukrainian National University, majoring in Software Engineering.",
+    "keywords": "Maksym Hnatyshyn, Full stack developer, JavaScript, React, Next.js, TypeScript, Software Engineering, Western Ukrainian National University, freelance, responsive websites, web applications, API integration, user interfaces, TailwindCSS, GitHub, Python, Docker, MongoDB, PostgreSQL"
   },
   "navBar": {
     "About-me": "About-me",
@@ -20,6 +21,51 @@
     "description3": "🎓 I graduated from the West Ukrainian National University with a degree in 'Software Engineering'.",
     "description4": "💡 I am passionate about developing full stack applications using React and Next.js, and I am constantly improving my skills.",
     "description5": "🚀 My goal is to become better every day than I was yesterday."
+  },
+
+  "projects": {
+    "title": "My projects",
+    "category": "🗂️ Projects",
+    "techStack": "Tech stack:",
+    "project": {
+      "0": {
+        "title": "Solar Panel Installation Company Website",
+        "description": "A modern website for a company specializing in solar power plant installation. The site features a responsive interface.",
+        "href": "https://portfolio-monomah-project.vercel.app/",
+        "image": "/solar.jpeg",
+        "techsSize": "6",
+        "techs": {
+          "0": "Next js",
+          "1": "React",
+          "2": "TypeScript",
+          "3": "TailwindCSS",
+          "4": "SEO",
+          "5": "Vercel",
+          "6": "Deployment",
+          "7": "Responsive Design"
+        }
+      },
+      "1": {
+        "title": "Weather Forecast App",
+        "description": "A weather forecast application built with Next.js, which displays real-time weather information using an external API. The app features a clean and responsive UI, styled with TailwindCSS, and optimized for SEO. Deployed on Vercel for seamless hosting and performance.",
+        "href": "https://wethear.vercel.app/",
+        "image": "/wether.png",
+        "techsSize": "11",
+        "techs": {
+          "0": "Next.js",
+          "1": "React",
+          "2": "TypeScript",
+          "3": "TailwindCSS",
+          "4": "API Integration",
+          "5": "Vercel",
+          "6": "REST API",
+          "7": "Axios",
+          "8": "Zustand",
+          "9": "Deployment",
+          "10": "Responsive Design"
+        }
+      }
+    }
   },
 
   "career": {
