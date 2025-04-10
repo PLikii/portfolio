@@ -8,7 +8,7 @@ import Projects from "@/components/projects";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" overflow-x-hidden">
       <Navbar />
       <div className=" mx-6 my-10 flex flex-col gap-20 sm:my-28 lg:mx-36 lg:gap-28">
         <AboutMe />
