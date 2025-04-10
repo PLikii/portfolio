@@ -11,7 +11,10 @@ export default function Projects() {
   );
 
   const project = (image, href, title, description, techs, techsSize) => (
-    <div className=" rounded-2xl border border-border duration-500 lg:hover:scale-105">
+    <div
+      className=" rounded-2xl border border-border duration-500 lg:hover:scale-105"
+      data-aos="zoom-out-up"
+    >
       <a href={href} className=" cursor-pointer" data-aos="zoom-out-up">
         <Image
           src={image}
@@ -56,7 +59,7 @@ export default function Projects() {
         {t("title")}
       </div>
 
-      <div className=" grid grid-cols-1  lg:grid-cols-2 gap-10">
+      <div className=" grid grid-cols-1 gap-10 lg:grid-cols-2">
         {Array.from({ length: 2 }).map((_, i) => {
           return project(
             t(`project.${i}.image`),
