@@ -6,24 +6,24 @@ export default function AboutMe() {
 
   return (
     <section id="about-me" className="pt-32 " data-aos="fade-up">
-      <div className=" flex w-full items-center justify-center pb-10">
-        <h2 className=" -mb-10 lg:-mb-0 w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
+      <div className=" 2xl:-mb-12 flex w-full items-center justify-center pb-10">
+        <h2 className="w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary ">
           {t("category")}
         </h2>
       </div>
 
-      <div className="flex flex-col items-center justify-around gap-6 2xl:flex-row">
-        <div className=" pointer-events-none select-none">
+      <div className="flex flex-col items-center justify-around gap-6 2xl:flex-row ">
+        <div className=" pointer-events-none select-none ">
           <Image
             src="/myImage.png"
             alt={t("title")}
             width={420}
             height={420}
             priority
-            className=" h-[420] w-full rounded-full object-contain "
+            className=" h-[360] w-full rounded-full object-contain"
           />
         </div>
-        <div className=" flex flex-col items-center space-y-6 lg:items-start ">
+        <div className=" flex flex-col space-y-6 lg:items-start ">
           <h1 className=" font-extrabold text-2xl text-title sm:text-4xl ">
             {t("title")}
           </h1>
