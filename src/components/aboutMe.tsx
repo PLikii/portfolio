@@ -6,7 +6,7 @@ export default function AboutMe() {
 
   return (
     <section id="about-me" className="pt-32 " data-aos="fade-up">
-      <div className=" flex w-full items-center justify-center pb-10">
+      <div className=" 2xl:-mb-10 flex w-full items-center justify-center pb-10">
         <h2 className="w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary ">
           {t("category")}
         </h2>
