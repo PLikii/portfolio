@@ -6,8 +6,8 @@ export default function AboutMe() {
 
   return (
     <section id="about-me" className="pt-32 " data-aos="fade-up">
-      <div className=" flex w-full items-center justify-center">
-        <h2 className=" -mb-10 w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
+      <div className=" flex w-full items-center justify-center pb-10">
+        <h2 className=" -mb-10 lg:-mb-0 w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary">
           {t("category")}
         </h2>
       </div>
