@@ -20,7 +20,7 @@ export default function AboutMe() {
             width={420}
             height={420}
             priority
-            className=" h-[360] w-full rounded-full object-contain"
+            className=" h-[360] rounded-full object-contain"
           />
         </div>
         <div className=" flex flex-col space-y-6 lg:items-start ">
