@@ -43,7 +43,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-col items-center justify-center gap-6"
+      className="mt-10 flex flex-col items-center justify-center gap-6 lg:mt-0"
     >
       <h2
         className="w-52 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary"
