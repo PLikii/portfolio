@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Maksym Hnatyshyn || Full stack developer",
-    "titleTemplate": "%s || Maksym Hnatyshyn || Full stack developer",
-    "description": "My name is Maksym Hnatyshyn, I am a Full stack developer with experience working with JavaScript, React, Next.js and TypeScript. I am a graduate of the Western Ukrainian National University, majoring in Software Engineering.",
-    "keywords": "Maksym Hnatyshyn, Full stack developer, JavaScript, React, Next.js, TypeScript, Software Engineering, Western Ukrainian National University, freelance, responsive websites, web applications, API integration, user interfaces, TailwindCSS, GitHub, Python, Docker, MongoDB, PostgreSQL"
+    "title": "Maksym Hnatyshyn || Front end developer",
+    "titleTemplate": "%s || Maksym Hnatyshyn || Front end developer",
+    "description": "My name is Maksym Hnatyshyn, I am a Front end developer with experience working with JavaScript, React, Next.js and TypeScript. I am a graduate of the Western Ukrainian National University, majoring in Software Engineering.",
+    "keywords": "Maksym Hnatyshyn, Front end developer, JavaScript, React, Next.js, TypeScript, Software Engineering, Western Ukrainian National University, freelance, responsive websites, web applications, API integration, user interfaces, TailwindCSS, GitHub, Python, Docker, MongoDB, PostgreSQL"
   },
   "navBar": {
     "About-me": "About-me",
@@ -16,11 +16,12 @@
   "aboutMe": {
     "title": "Maksym Hnatyshyn",
     "category": "🧐 About me",
-    "description1": "👋 Hello! My name is Maksym Hnatyshyn, but you can just call me Maksym.",
-    "description2": "👨‍💻 I am a full-stack developer with over 2 years of experience working with JavaScript, React.js, Next.js, and TypeScript.",
-    "description3": "🎓 I graduated from the West Ukrainian National University with a degree in 'Software Engineering'.",
-    "description4": "💡 I am passionate about developing full stack applications using React and Next.js, and I am constantly improving my skills.",
-    "description5": "🚀 My goal is to become better every day than I was yesterday."
+    "description1": "👋 Hi! My name is Maksym Hnatyshyn, but you can just call me Maksym.",
+    "description2": "👨‍💻 I am a Frontend developer with over 2 years of experience using React.js, Next.js, and TypeScript in learning and personal projects.",
+    "description3": "🎓 I graduated with a degree in Software Engineering from the Western Ukrainian National University.",
+    "description4": "💡 I am passionate about developing Frontend applications with React and Next.js, constantly improving my skills.",
+    "description5": "🛠 I have completed several freelance projects that helped me gain practical experience.",
+    "description6": "🚀 My goal is to become better every day than I was yesterday."
   },
 
   "projects": {
@@ -31,6 +32,7 @@
       "0": {
         "title": "Solar Panel Installation Company Website",
         "description": "A modern website for a company specializing in solar power plant installation. The site features a responsive interface.",
+        "git": "https://github.com/PLikii/portfolio-monomah-project",
         "href": "https://portfolio-monomah-project.vercel.app/",
         "image": "/solar.jpeg",
         "techsSize": "6",
@@ -48,6 +50,7 @@
       "1": {
         "title": "Weather Forecast App",
         "description": "A weather forecast application built with Next.js, which displays real-time weather information using an external API. The app features a clean and responsive UI, styled with TailwindCSS, and optimized for SEO. Deployed on Vercel for seamless hosting and performance.",
+        "git": "https://github.com/PLikii/Wethear",
         "href": "https://wethear.vercel.app/",
         "image": "/wether.png",
         "techsSize": "11",
@@ -64,6 +67,39 @@
           "9": "Deployment",
           "10": "Responsive Design"
         }
+      },
+      "2": {
+        "title": "Draggable Tabs Component",
+        "description": "This is a demo website built as a test task featuring a tab component with the following functionality: Tabs can be rearranged via drag-and-drop, and their order persists after page reload. Tabs can be pinned in place. Tabs that don't fit into the visible area of the container are shown in a dropdown menu with scrolling. When the screen width changes, tabs that no longer fit are moved to the dropdown and vice versa — they return to the main area. Each tab is assigned a unique URL, and switching between tabs triggers navigation to the corresponding URL.",
+        "git": "https://github.com/PLikii/test-task",
+        "href": "https://test-task-delta-olive.vercel.app/",
+        "image": "/test1.png",
+        "techsSize": "6",
+        "techs": {
+          "0": "Next.js",
+          "1": "React",
+          "2": "TypeScript",
+          "3": "TailwindCSS",
+          "4": "Vercel",
+          "5": "Responsive Design"
+        }
+      },
+      "3": {
+        "title": "Collaborative To-Do App with User Roles",
+        "description": "A task management web application built as a test project. It features user registration, authentication, and session management via tokens. Users can create and manage to-do lists, add tasks with titles and descriptions, mark them as completed, and invite collaborators with different access levels. Each list supports two roles: Admin (full access) and Viewer (can only view and mark tasks as done). The app has a clean UI and supports seamless multi-user interaction.",
+        "git": "https://github.com/PLikii/test-task-2",
+        "href": "https://wethear.vercel.app/",
+        "image": "/test2.png",
+        "techsSize": "7",
+        "techs": {
+          "0": "Next.js",
+          "1": "React",
+          "2": "TypeScript",
+          "3": "TailwindCSS",
+          "4": "Firebase",
+          "5": "Vercel",
+          "6": "Responsive Design"
+        }
       }
     }
   },
@@ -77,7 +113,7 @@
       "0": {
         "title": "Master's Degree in Software Engineering",
         "description": "I am studying for a master's degree in Software Engineering at the Western Ukrainian National University.",
-        "time": "2023 · Now"
+        "time": "2023 · 2025"
       },
       "1": {
         "title": "Bachelor's Degree in Software Engineering",
@@ -92,9 +128,9 @@
     },
     "professionals": {
       "0": {
-        "title": "Full Stack Developer",
+        "title": "Front End developer",
         "description": "As a freelancer, I create responsive websites and web applications using Next.js. I integrate APIs and create intuitive user interfaces.",
-        "time": "2024 · Now"
+        "time": "2024 · 2025"
       }
     }
   },
