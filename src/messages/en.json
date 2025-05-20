@@ -37,14 +37,12 @@
         "image": "/solar.jpeg",
         "techsSize": "6",
         "techs": {
-          "0": "Next js",
+          "0": "Next.js",
           "1": "React",
           "2": "TypeScript",
           "3": "TailwindCSS",
           "4": "SEO",
-          "5": "Vercel",
-          "6": "Deployment",
-          "7": "Responsive Design"
+          "5": "Vercel"
         }
       },
       "1": {
@@ -86,7 +84,7 @@
       },
       "3": {
         "title": "Collaborative To-Do App with User Roles",
-        "description": "A task management web application built as a test project. It features user registration, authentication, and session management via tokens. Users can create and manage to-do lists, add tasks with titles and descriptions, mark them as completed, and invite collaborators with different access levels. Each list supports two roles: Admin (full access) and Viewer (can only view and mark tasks as done). The app has a clean UI and supports seamless multi-user interaction.",
+        "description": "A task management web application built as a test project. It features user registration, authentication, and session management via tokens. Users can create and manage to-do lists, add tasks with titles and descriptions, mark them as completed, and invite collaborators with different access levels. Each list supports two roles: Admin and Viewer. The app has a clean UI and supports seamless multi-user interaction.",
         "git": "https://github.com/PLikii/test-task-2",
         "href": "https://wethear.vercel.app/",
         "image": "/test2.png",
