@@ -5,7 +5,7 @@ export default function AboutMe() {
   const t = useTranslations("aboutMe");
 
   return (
-    <section id="about-me" className="pt-32 " data-aos="fade-up">
+    <section id="about-me" className="pt-32 pb-10 lg:pb-0" data-aos="fade-up">
       <div className=" flex w-full items-center justify-center pb-10">
         <h2 className="w-36 rounded-2xl bg-card py-2 text-center font-bold text-lg text-primary ">
           {t("category")}
@@ -13,16 +13,7 @@ export default function AboutMe() {
       </div>
 
       <div className="flex flex-col items-center justify-around gap-6 2xl:flex-row ">
-        <div className=" pointer-events-none select-none ">
-          <Image
-            src="/myImage.png"
-            alt={t("title")}
-            width={360}
-            height={360}
-            priority
-            className=" max-h-80 rounded-b-full object-contain"
-          />
-        </div>
+        
         <div className=" flex h-80 flex-col space-y-6 lg:items-start">
           <h1 className=" font-extrabold text-2xl text-title sm:text-4xl ">
             {t("title")}
