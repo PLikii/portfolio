@@ -1,14 +1,14 @@
-import { IoLogoGithub } from "react-icons/io";
-import { FaReact } from "react-icons/fa";
-import { RiNextjsLine } from "react-icons/ri";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { useTranslations } from "next-intl";
 import { DiJsBadge } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io";
+import { RiNextjsLine } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
-import { useTranslations } from "next-intl";
 
 export default function Skills() {
   const t = useTranslations("skills");

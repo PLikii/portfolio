@@ -1,6 +1,6 @@
+import { useTranslations } from "next-intl";
 import { RiTelegram2Line } from "react-icons/ri";
 import { SiGmail } from "react-icons/si";
-import { useTranslations } from "next-intl";
 
 export default function Contacts() {
   const t = useTranslations("contacts");

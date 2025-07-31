@@ -1,16 +1,16 @@
 import AboutMe from "@/components/aboutMe";
 import Career from "@/components/career";
-import Navbar from "@/components/navbar";
-import Skills from "@/components/skills";
 import Contacts from "@/components/contacts";
 import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 import Projects from "@/components/projects";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
-    <div className=" overflow-x-hidden">
+    <div>
       <Navbar />
-      <div className=" mx-6 my-10 flex flex-col gap-20 sm:my-28 lg:mx-36 lg:gap-28">
+      <div className=" mx-6 my-10 flex max-w-screen flex-col gap-20 overflow-x-hidden sm:my-28 lg:mx-36 lg:gap-28">
         <AboutMe />
         <Projects />
         <Career />

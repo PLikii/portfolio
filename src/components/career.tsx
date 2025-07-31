@@ -6,10 +6,10 @@ export default function Career() {
   const items = (title, description, time) => (
     <div
       data-aos="zoom-in-up"
-      className="group relative h-full min-h-68 snap-center space-y-4 rounded-2xl border border-border p-6 duration-300 hover:bg-card lg:w-auto lg:p-8 hover:lg:scale-105"
+      className=" group relative h-full min-h-68 snap-center space-y-4 rounded-2xl border border-border p-6 duration-300 hover:bg-card lg:w-auto lg:p-8 hover:lg:scale-105"
     >
       <h3 className="text-lg text-title sm:text-xl">{title}</h3>
-      <p className="w-full pb-8 ms:text-lg">{description}</p>
+      <p className="pb-8 ms:text-lg">{description}</p>
       <p className="absolute right-0 bottom-0 p-6 text-right text-primary">
         {time}
       </p>
@@ -21,11 +21,11 @@ export default function Career() {
       <h3 className="text-center font-extrabold text-title text-xl sm:text-2xl lg:px-6">
         {t(title)}
       </h3>
-      <div className="flex flex-col gap-6 md:flex-row lg:w-auto lg:flex-col lg:overflow-hidden lg:p-6">
+      <div className="flex flex-col gap-6 md:flex-row lg:w-auto lg:flex-col lg:overflow-hidden lg:p-6 ">
         {Array.from({ length: size }).map((_, i) => {
           const uniqueKey = `${title}-${i}`;
           return (
-            <div key={uniqueKey} className=" flex w-full justify-center">
+            <div key={uniqueKey} className="flex justify-center">
               {items(
                 t(`${title}s.${i}.title`),
                 t(`${title}s.${i}.description`),
